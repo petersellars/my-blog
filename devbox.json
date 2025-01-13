@@ -1,0 +1,10 @@
+{
+  "packages": [
+    "git@2.46.0",
+    "nodejs@22.9.0",
+    "yarn@1.22.22"
+  ],
+  "env": {
+    "DEVBOX_COREPACK_ENABLED": "true"
+  }
+}

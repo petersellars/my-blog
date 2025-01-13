@@ -1,0 +1,29 @@
+# build output
+dist/
+
+# generated types
+.astro/
+
+# dependencies
+node_modules/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# do not commit .env files or any files that end with `.env`
+.env
+.env.production
+
+# macOS-specific files
+.DS_Store
+
+# jetbrains setting folder
+.idea/
+
+# make it easy for people to add project-specific Astro settings that they don't
+# want to share with others (see
+# https://github.com/withastro/astro/pull/11759#discussion_r1721444711)
+*.code-workspace
