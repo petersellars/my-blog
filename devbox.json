@@ -1,7 +1,7 @@
 {
   "packages": [
     "git@2.46.0",
-    "nodejs@22.9.0",
+    "nodejs@22.13.1",
     "yarn@1.22.22"
   ],
   "env": {
