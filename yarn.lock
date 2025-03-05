@@ -1098,9 +1098,9 @@ contentful-sdk-core@^9.0.1:
     "@rollup/rollup-linux-x64-gnu" "^4.18.0"
 
 contentful@^11.4.2:
-  version "11.5.3"
-  resolved "https://registry.yarnpkg.com/contentful/-/contentful-11.5.3.tgz#c6ae4d66a2bd4916d0a3076a15902cc6dc823e53"
-  integrity sha512-cprMvwvV/Nav8ZGkaqlsZv07IXKUeoR4/xnqSnIZeMzHTnrgx3obwqbMhCtVPqnelDIWnKmPJYqEVxLuk1aYBQ==
+  version "11.5.4"
+  resolved "https://registry.yarnpkg.com/contentful/-/contentful-11.5.4.tgz#282430bc5f9add6db4cda8f855e4f876a2bfb12c"
+  integrity sha512-RYSAygpIUSgFtM1cYVJKsmtHh7sxjJ8/dfFRFJAevgDV2hmC1XQw8pSNpSA4hTIMB92EqHZyxiDGi1+boQpa9Q==
   dependencies:
     "@contentful/content-source-maps" "^0.11.8"
     "@contentful/rich-text-types" "^16.6.1"
@@ -2961,9 +2961,9 @@ tslib@^2.4.0:
   integrity sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==
 
 type-fest@^4.0.0:
-  version "4.36.0"
-  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-4.36.0.tgz#e656de02aa880aa01b4d3a71188bb6adb18668a2"
-  integrity sha512-3T/PUdKTCnkUmhQU6FFJEHsLwadsRegktX3TNHk+2JJB9HlA8gp1/VXblXVDI93kSnXF2rdPx0GMbHtJIV2LPg==
+  version "4.37.0"
+  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-4.37.0.tgz#7cf008bf77b63a33f7ca014fa2a3f09fd69e8937"
+  integrity sha512-S/5/0kFftkq27FPNye0XM1e2NsnoD/3FS+pBmbjmmtLT6I+i344KoOf7pvXreaFsDamWeaJX55nczA1m5PsBDg==
 
 type-fest@^4.21.0:
   version "4.37.0"
