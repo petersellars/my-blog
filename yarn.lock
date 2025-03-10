@@ -1090,9 +1090,9 @@ contentful-resolve-response@^1.9.0:
     fast-copy "^2.1.7"
 
 contentful-sdk-core@^9.0.1:
-  version "9.1.0"
-  resolved "https://registry.yarnpkg.com/contentful-sdk-core/-/contentful-sdk-core-9.1.0.tgz#ca6599b9677722f21937a1db84f78b6a0299e7a2"
-  integrity sha512-bXx8in9m+/hwGlrGIvwHBuYXruRHeYboXRUUCFD4ex1m7kZPkYEJmI9Ll7zfXZkkFNz9nWeXGYm1AQAzpeVtgA==
+  version "9.2.0"
+  resolved "https://registry.yarnpkg.com/contentful-sdk-core/-/contentful-sdk-core-9.2.0.tgz#d3648fcb8392fd2eb9368b579258a9152de802cf"
+  integrity sha512-cUvHbC2u8ouJHhG3tofQhUc0FAmM/QBcalYjiczMtFKrR77BW+eSPcPg+A9DQlhIP0UGcQ/knXxoJpBvrERXTA==
   dependencies:
     fast-copy "^3.0.2"
     lodash "^4.17.21"
@@ -1103,9 +1103,9 @@ contentful-sdk-core@^9.0.1:
     "@rollup/rollup-linux-x64-gnu" "^4.18.0"
 
 contentful@^11.4.2:
-  version "11.5.5"
-  resolved "https://registry.yarnpkg.com/contentful/-/contentful-11.5.5.tgz#4ead3300218f57ee33513dc2d45a648f9da8e003"
-  integrity sha512-LXMXdK6SeGC+wh2DWQOspLM/bYWp3rOtUrpm/Hxe+LgzfCQ9uzMTDEFxGVb639d0qFHt/k3bL1NKL8YzHNWNww==
+  version "11.5.6"
+  resolved "https://registry.yarnpkg.com/contentful/-/contentful-11.5.6.tgz#df96e1d8ca6fe430ee526468c841fd87a9b7e9a5"
+  integrity sha512-OJop4QGDsEpdRHhZnyrxn0VUMi067CYCoLworKJzi1XGWvDZlHyssRB1y3/54tXypUQnJUDDT4cmt+5MHLLVRg==
   dependencies:
     "@contentful/content-source-maps" "^0.11.8"
     "@contentful/rich-text-types" "^16.6.1"
