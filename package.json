@@ -11,7 +11,7 @@
   "dependencies": {
     "@astrojs/check": "^0.9.4",
     "@contentful/rich-text-html-renderer": "^17.0.0",
-    "astro": "^5.1.5",
+    "astro": "^5.6.1",
     "contentful": "^11.4.2",
     "typescript": "^5.7.3"
   },
