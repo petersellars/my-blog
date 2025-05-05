@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+@theme {
+    --color-primary: #3557c1;
+}
+
+html,
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-background {
+    --c1: var(--color-primary);
+    background-color: var(--c1);
+}
