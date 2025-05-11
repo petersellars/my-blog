@@ -2,8 +2,14 @@
 import Layout from '@layouts/Layout.astro';
 import Hero from '@components/sections/Hero.astro';
 
+import heroImage from '../assets/images/home/piha-hero.webp';
+
+const heroContent = {
+    backgroundImage: heroImage,
+	overlayOpacity: 0.2
+}
 ---
 
 <Layout>
-	<Hero/>
+	<Hero content={heroContent} />
 </Layout>
