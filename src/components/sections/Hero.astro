@@ -1,4 +1,45 @@
-<section>
+---
+import { Image } from 'astro:assets';
+
+interface HeroContent {
+    backgroundImage?: string | any; // Using any for now to handle both string paths and imported images
+    overlayOpacity?: number; // Value between 0 and 1
+}
+
+interface Props {
+    content: HeroContent;
+}
+
+const { content } = Astro.props;
+const opacity = content.overlayOpacity ?? 1; // Default opacity if not specified
+---
+<section class="header-offset relative">
+    <div class="absolute inset-0 left-0 top-0 w-full h-full overflow-hidden">
+        <Image
+            src={content.backgroundImage}
+            alt=""
+            width={1920}
+            height={1080}
+            class="w-full h-full object-cover"
+            quality={70}
+            format="webp"
+            loading="eager"
+            decoding="async"
+        />
+        <div
+            class="hero-background absolute inset-0 left-0 top-0 w-full h-full overflow-hidden"
+            style={`opacity: ${opacity};`}
+        ></div>
+    </div>
+    
+    <div class="site-container mx-auto px-4 py-large relative z-10 flex flex-col md:items-center md:justify-center md:text-center">
+        <p>Test</p>
+        <p>Test</p>
+        <p>Test</p>
+        <p>Test</p>
+        <p>Test</p>
+        <p>Test</p>
+    </div>
     <div class="hero-background">
         <p>Hero Section</p>
     </div>

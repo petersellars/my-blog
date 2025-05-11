@@ -2,6 +2,9 @@
 
 @theme {
     --color-primary: #3557c1;
+    --color-primary-dark: #1a3c8c;
+
+    --container-base: 1400px;
 }
 
 html,
@@ -11,7 +14,28 @@ body {
     height: 100%;
 }
 
+.site-container {
+    @apply mx-auto max-w-[var(--container-base)] w-full;
+}
+
+.header-offset{
+    @apply pt-24;
+}
+
 .hero-background {
+    --s: 34px;
+    /* control the size*/
     --c1: var(--color-primary);
-    background-color: var(--c1);
+    --c2: var(--color-primary-dark);
+
+    --_g:
+    var(--c1) 0% 5%, var(--c2) 6% 15%, var(--c1) 16% 25%, var(--c2) 26% 35%, var(--c1) 36% 45%,
+    var(--c2) 46% 55%, var(--c1) 56% 65%, var(--c2) 66% 75%, var(--c1) 76% 85%, var(--c2) 86% 95%,
+    #0000 96%;
+    background:
+        radial-gradient(50% 50% at 100% 0, var(--_g)),
+        radial-gradient(50% 50% at 0 100%, var(--_g)),
+        radial-gradient(50% 50%, var(--_g)),
+        radial-gradient(50% 50%, var(--_g)) calc(var(--s)/2) calc(var(--s)/2) var(--c1);
+    background-size: var(--s) var(--s);
 }
