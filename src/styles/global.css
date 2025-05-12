@@ -5,6 +5,25 @@
     --color-primary-dark: #1a3c8c;
 
     --container-base: 1400px;
+
+    --spacing-large: clamp(6rem, 10vw + 1rem, 10rem);
+
+    --text-h1: clamp(2rem, 5vw + 1rem, 4rem);
+
+    --text-base: clamp(1rem, 2vw + 0.125rem, 1.25rem);
+
+    --font-base: 'Noto Sans KR', sans-serif;
+    --font-headline: 'Noto Sans KR', sans-serif;
+}
+
+@layer components {
+    html { font-size: 16px; color: var(--color-text-base); }
+    body { background-color: var(--color-background); font-size: var(--text-base); font-family: var(--font-base); font-weight: 400;}
+    h1 { font-size: var(--text-h1); font-family: var(--font-headline); font-weight: 500 ;}  
+}
+
+@layer utilities {
+    .py-large { padding-top: var(--spacing-large); padding-bottom: var(--spacing-large); }
 }
 
 html,
