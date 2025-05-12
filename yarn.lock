@@ -143,9 +143,9 @@
     fontkit "^2.0.2"
 
 "@contentful/content-source-maps@^0.11.8":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@contentful/content-source-maps/-/content-source-maps-0.11.14.tgz#b5ff963c8aeddcced8f73134af49b6df18cc95a5"
-  integrity sha512-Ztad5mne0r0IgpYarYXX0X6i72ccNbfUp7byn2mf3jGe67JbK0GD3+yhnPWH/A1Jl/XKroE5XoYeA9WT5vW9wQ==
+  version "0.11.15"
+  resolved "https://registry.yarnpkg.com/@contentful/content-source-maps/-/content-source-maps-0.11.15.tgz#2e499e4c5b062df87072d616635f2b54a894ee8c"
+  integrity sha512-3ljhXYRTiZG3pYGFTs8dZbua7Lo/pyU3fhTIgnCJOQSNKuFrYW4cfROzFXz6sg6z+hwSTzoxobvD37bSeNRqCw==
   dependencies:
     "@vercel/stega" "^0.1.2"
     json-pointer "^0.6.2"
@@ -1310,9 +1310,9 @@ common-ancestor-path@^1.0.1:
   integrity sha512-L3sHRo1pXXEqX8VU28kfgUY+YGsk09hPqZiZmLacNib6XNTCM8ubYeT7ryXQw8asB1sKgcU5lkB7ONug08aB8w==
 
 contentful-resolve-response@^1.9.0:
-  version "1.9.2"
-  resolved "https://registry.yarnpkg.com/contentful-resolve-response/-/contentful-resolve-response-1.9.2.tgz#a341e84aabb16c871fea37073e6d890e0e2513fb"
-  integrity sha512-VTY1hZGh29yspBeveJ62cuDf+cw9Iq/NcKWBdNHjTq8hvgxz+E19+Pej3LW/02o98+D0XcKfcPYXIpm4lHY+eg==
+  version "1.9.3"
+  resolved "https://registry.yarnpkg.com/contentful-resolve-response/-/contentful-resolve-response-1.9.3.tgz#83bca77e315261146fd523b7044f808f61a3b2da"
+  integrity sha512-1mPTz7bJLZsLdWAOEyjoVKys/eTXa7o3aV3EYLH7sqqF8V1fnRHlJqlDoxGZFsPxQPBYag+V89B1E/HYE0ENnQ==
   dependencies:
     fast-copy "^2.1.7"
 
@@ -1330,9 +1330,9 @@ contentful-sdk-core@^9.0.1:
     "@rollup/rollup-linux-x64-gnu" "^4.18.0"
 
 contentful@^11.5.13:
-  version "11.5.20"
-  resolved "https://registry.yarnpkg.com/contentful/-/contentful-11.5.20.tgz#ce49c9686895e63d2c3c1cf345b5fc363c0738ac"
-  integrity sha512-p8OOArQxXYZVqOZtLeZ557ktjD9dPL8Cn7+oQqboOzwKc+0jRZHb9+Y/O1+2SLnACoygJrTLBXO6UzQcAQQNFg==
+  version "11.5.21"
+  resolved "https://registry.yarnpkg.com/contentful/-/contentful-11.5.21.tgz#efe4c83f1a997d08a34a6e75da4ef864d6364908"
+  integrity sha512-WPj26kCTHNOka35A/Thon1RXG+SFhkJSsuPXgua0dF9Iks8SDqQKCA5YXQDfhYeikmefiiukqzLw3W2Ai7NFRA==
   dependencies:
     "@contentful/content-source-maps" "^0.11.8"
     "@contentful/rich-text-types" "^16.6.1"
