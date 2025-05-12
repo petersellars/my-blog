@@ -3,9 +3,25 @@ import Layout from '@layouts/Layout.astro';
 import Hero from '@components/sections/Hero.astro';
 
 import heroImage from '../assets/images/home/piha-hero.webp';
+import { defaultErrorMap } from 'astro:schema';
+import { deselectScripts } from 'astro/virtual-modules/transitions-swap-functions.js';
 
 const heroContent = {
-    backgroundImage: heroImage,
+	title: "Hero Content",
+	description: "This is the hero section of the page. It contains a title and a description.",
+    // buttons: [
+    //     {
+    //         text: 'Get Started',
+    //         link: '/contact',
+    //         target: '_self'
+    //     },
+    //     {
+    //         text: 'View on GitHub',
+    //         link: 'https://github.com/rspisarski/titan-core',
+    //         target: '_blank'
+    //     }
+    // ],
+	backgroundImage: heroImage,
 	overlayOpacity: 0.2
 }
 ---
