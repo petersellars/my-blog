@@ -24,7 +24,7 @@ const Hero: FunctionalComponent<Props> = ({ content }) => {
     description,
     buttons,
     backgroundImage,
-    overlayOpacity = 1,
+    overlayOpacity = 0.1,
   } = content;
 
   return (
