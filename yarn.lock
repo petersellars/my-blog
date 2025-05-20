@@ -299,9 +299,9 @@
     fontkit "^2.0.2"
 
 "@contentful/content-source-maps@^0.11.8":
-  version "0.11.15"
-  resolved "https://registry.yarnpkg.com/@contentful/content-source-maps/-/content-source-maps-0.11.15.tgz#2e499e4c5b062df87072d616635f2b54a894ee8c"
-  integrity sha512-3ljhXYRTiZG3pYGFTs8dZbua7Lo/pyU3fhTIgnCJOQSNKuFrYW4cfROzFXz6sg6z+hwSTzoxobvD37bSeNRqCw==
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@contentful/content-source-maps/-/content-source-maps-0.11.16.tgz#1367748a546198ae7d65997f504d4404533a5c08"
+  integrity sha512-+zgnLPt2bfuFuoYAxtbBGGRuhYfOq3FrxAjKendH3bSR8L4a/NZIPu39BqrWS4CNbkj4qJ3k2Q42eD/lFvZhtw==
   dependencies:
     "@vercel/stega" "^0.1.2"
     json-pointer "^0.6.2"
@@ -848,10 +848,15 @@
   resolved "https://registry.yarnpkg.com/@rollup/rollup-linux-s390x-gnu/-/rollup-linux-s390x-gnu-4.40.2.tgz#dda3265bbbfe16a5d0089168fd07f5ebb2a866fe"
   integrity sha512-B7LKIz+0+p348JoAL4X/YxGx9zOx3sR+o6Hj15Y3aaApNfAshK8+mWZEf759DXfRLeL2vg5LYJBB7DdcleYCoQ==
 
-"@rollup/rollup-linux-x64-gnu@4.40.2", "@rollup/rollup-linux-x64-gnu@^4.18.0":
+"@rollup/rollup-linux-x64-gnu@4.40.2":
   version "4.40.2"
   resolved "https://registry.yarnpkg.com/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.40.2.tgz#90993269b8b995b4067b7b9d72ff1c360ef90a17"
   integrity sha512-lG7Xa+BmBNwpjmVUbmyKxdQJ3Q6whHjMjzQplOs5Z+Gj7mxPtWakGHqzMqNER68G67kmCX9qX57aRsW5V0VOng==
+
+"@rollup/rollup-linux-x64-gnu@^4.18.0":
+  version "4.41.0"
+  resolved "https://registry.yarnpkg.com/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.41.0.tgz#c3e42b66c04e25ad0f2a00beec42ede96ccc8983"
+  integrity sha512-XMLeKjyH8NsEDCRptf6LO8lJk23o9wvB+dJwcXMaH6ZQbbkHu2dbGIUindbMtRN6ux1xKi16iXWu6q9mu7gDhQ==
 
 "@rollup/rollup-linux-x64-musl@4.40.2":
   version "4.40.2"
@@ -1571,9 +1576,9 @@ contentful-sdk-core@^9.0.1:
     "@rollup/rollup-linux-x64-gnu" "^4.18.0"
 
 contentful@^11.5.13:
-  version "11.5.22"
-  resolved "https://registry.yarnpkg.com/contentful/-/contentful-11.5.22.tgz#cea1d7b7cbf33bc50deff10af979df588e9bc95f"
-  integrity sha512-Qptc8jDPFqR4e0q1+p7mvAxTriCcH3TSDIK6E5/rgIMrbTOTsXyoPnw4JkNBQMLrg7CchHIWgXTM0SIjwJe67A==
+  version "11.5.23"
+  resolved "https://registry.yarnpkg.com/contentful/-/contentful-11.5.23.tgz#2d0d99603507466ff1f246ace4132787a993057c"
+  integrity sha512-Jp1dAuxb7YbN0OCUU19ObJguJ9+l4VEUYYmf9xBPb4s//52SzAOIxvab/gFECA9DC41yjMdo1J03dE96bxUc2w==
   dependencies:
     "@contentful/content-source-maps" "^0.11.8"
     "@contentful/rich-text-types" "^16.6.1"
