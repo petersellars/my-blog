@@ -1,5 +1,4 @@
 /** @jsxImportSource preact */
-import { h } from 'preact';
 import type { Meta, StoryObj } from '@storybook/preact';
 import Hero from './Hero';
 
