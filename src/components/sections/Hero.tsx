@@ -14,11 +14,11 @@ interface HeroContent {
     overlayOpacity?: number; // Value between 0 and 1
 }
 
-interface Props {
+interface HeroProps {
     content: HeroContent;
 }
 
-const Hero: FunctionalComponent<Props> = ({ content }) => {
+const Hero: FunctionalComponent<HeroProps> = ({ content }) => {
   const {
     title,
     description,
@@ -35,7 +35,7 @@ const Hero: FunctionalComponent<Props> = ({ content }) => {
             src={typeof backgroundImage === 'string' ? backgroundImage : ''}
             alt=""
             width={1500}
-            height={938}
+            height={500}
             class="w-full h-full object-cover"
             loading="eager"
             decoding="async"

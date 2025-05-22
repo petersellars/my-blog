@@ -2,13 +2,13 @@
 import type { Meta, StoryObj } from '@storybook/preact';
 import Hero from './Hero';
 
-const meta: Meta<typeof Hero> = {
-  title: 'Components/Hero',
+const meta = {
+  title: 'Components/Sections/Hero',
   component: Hero,
   args: {
     content: {
-      title: 'Welcome to Our Site',
-      description: 'This is a short description of what we do and why it matters.',
+      title: 'Hero Title Text',
+      description: 'Hero description text. Used for subtitles or context.',
       buttons: [
         {
           text: 'Get Started',
@@ -21,10 +21,10 @@ const meta: Meta<typeof Hero> = {
           variant: 'secondary',
         },
       ],
-      backgroundImage: '/assets/images/home/piha-hero.webp',
+      backgroundImage: '/assets/images/hero/hero-minions.webp',
       overlayOpacity: 0.1,
-    },
-  } as any, // ← Fix: force args type to align (safe here for story usage)
+    } as Meta<typeof Hero>,
+  },
 };
 
 export default meta;
@@ -32,3 +32,12 @@ export default meta;
 type Story = StoryObj<typeof Hero>;
 
 export const Default: Story = {};
+
+export const NoButtonsVariant: Story = {
+  args: {
+    content: {
+      ...meta.args.content,
+      buttons: [],
+    },
+  },
+} as StoryObj<typeof Hero>;
