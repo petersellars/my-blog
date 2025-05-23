@@ -4,10 +4,21 @@ import preact from '@preact/preset-vite';
 const config: StorybookConfig = {
   framework: {
     name: '@storybook/preact-vite',
-    options: {},
+    options: {}
+  },
+  docs: {
+    autodocs: true
   },
   stories: ['../src/components/**/*.stories.@(ts|tsx)'],
-  addons: ['@storybook/addon-essentials'],
+  addons: [
+    {
+      name: '@storybook/addon-docs',
+      options: {
+        autodocs: true,
+      },
+    },
+    '@storybook/addon-essentials',  // Already includes Docs, but you override it above
+  ],
   viteFinal: async (config) => {
     config.plugins = [...(config.plugins || []), preact()];
     return config;
