@@ -5,7 +5,8 @@ dist/
 .astro/
 
 # corepack yarn
-.yarn/
+.yarn/cache/
+.yarn/install-state.gz
 
 # dependencies
 node_modules/
