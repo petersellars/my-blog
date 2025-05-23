@@ -23,6 +23,7 @@ const meta = {
       ],
       backgroundImage: '/assets/images/hero/hero-minions.webp',
       overlayOpacity: 0.1,
+      tags: ['autodocs']
     } as Meta<typeof Hero>,
   },
 };

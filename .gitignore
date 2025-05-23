@@ -4,6 +4,9 @@ dist/
 # generated types
 .astro/
 
+# corepack yarn
+.yarn/
+
 # dependencies
 node_modules/
 
