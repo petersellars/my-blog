@@ -1,0 +1,31 @@
+---
+import { Image } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
+
+const { backgroundImage }: { backgroundImage?: string | ImageMetadata } = Astro.props;
+
+const isAstroImage = (img: unknown): img is ImageMetadata =>
+  typeof img === 'object' && img !== null && 'src' in img;
+---
+
+{isAstroImage(backgroundImage) ? (
+  <Image
+    src={backgroundImage}
+    alt=""
+    width={1500}
+    height={500}
+    class="w-full h-full object-cover"
+    loading="eager"
+    decoding="async"
+  />
+) : backgroundImage ? (
+  <img
+    src={backgroundImage}
+    alt=""
+    width={1500}
+    height={500}
+    class="w-full h-full object-cover"
+    loading="eager"
+    decoding="async"
+  />
+) : null}

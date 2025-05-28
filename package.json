@@ -5,11 +5,12 @@
   "license": "UNLICENSED",
   "private": true,
   "scripts": {
+    "astro": "astro",
     "check": "astro check",
     "dev": "astro dev",
     "build": "astro build",
+    "lint": "eslint . --ext .astro,.js,.jsx,.ts,.tsx",
     "preview": "astro preview",
-    "astro": "astro",
     "storybook": "NODE_OPTIONS=--no-deprecation storybook dev -p 6006"
   },
   "dependencies": {
