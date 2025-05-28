@@ -12,6 +12,9 @@ const preactPlugin = require('eslint-plugin-preact');
 
 module.exports = [
   {
+        ignores: [".astro/"],
+  },
+  {
     files: ['**/*.ts', '**/*.tsx'],
     languageOptions: {
       parser: tsParser,
@@ -37,6 +40,10 @@ module.exports = [
       ...securityPlugin.configs.recommended.rules,
       ...importPlugin.configs.errors.rules,
       ...importPlugin.configs.warnings.rules,
+      'react/prop-types': 'off',
+      'react/react-in-jsx-scope': 'off',
+      'preact/jsx-no-undef': 'off',
+      'preact/react-in-jsx-scope': 'off' 
     },
     settings: {
       react: {
