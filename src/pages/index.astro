@@ -1,14 +1,25 @@
 ---
 import Layout from '@layouts/Layout.astro';
-import Hero from '@components/sections/Hero.tsx';
+import Hero from '@components/sections/Hero.astro';
+import bg from '../assets/images/hero/hero-minions.webp';
 
 const heroContent = {
 	title: "Hero Content",
 	description: "This is the hero section of the page. It contains a title and a description.",
-	backgroundImage: '/assets/images/hero/hero-minions.webp',
+	overlayOpacity: 0.1
 }
 ---
 
 <Layout>
-	<Hero content={heroContent} client:load />
+	<!-- <Hero content={heroContent} client:load /> -->
+  <Hero
+    title={heroContent.title}
+    description={heroContent.description}
+    backgroundImage={bg}
+    overlayOpacity={heroContent.overlayOpacity}
+    buttons={[
+      { text: 'Get Started', link: '/start' },
+      { text: 'Docs', link: '/docs', variant: 'secondary' }
+    ]}
+  />
 </Layout>
