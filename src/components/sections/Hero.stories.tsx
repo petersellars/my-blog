@@ -1,44 +1,68 @@
 /** @jsxImportSource preact */
 import type { Meta, StoryObj } from '@storybook/preact';
-import Hero from './Hero.tsx';
+import Hero, { type HeroProps } from './HeroContext.tsx';
 
-const meta = {
-	title: 'Components/Sections/Hero',
+const meta: Meta<HeroProps> = {
 	component: Hero,
-	args: {
-		content: {
-			title: 'Hero Title Text',
-			description: 'Hero description text. Used for subtitles or context.',
-			buttons: [
-				{
-					text: 'Get Started',
-					link: '#get-started',
-					variant: 'primary'
-				},
-				{
-					text: 'Learn More',
-					link: '#learn-more',
-					variant: 'secondary'
-				}
-			],
-			backgroundImage: '/assets/images/hero/hero-minions.webp',
-			overlayOpacity: 0.1,
-			tags: ['autodocs']
-		} as Meta<typeof Hero>
+	title: 'Components/Hero',
+	tags: ['autodocs'],
+	argTypes: {
+		title: {
+			description: 'Hero content title text'
+		},
+		description: {
+			description: 'Hero content description text'
+		},
+		backgroundImage: {
+			description: 'Hero content background image'
+		},
+		overlayOpacity: {
+			description: 'Hero content background image overlay opacity'
+		},
+		buttons: {
+			description: 'Hero content buttons'
+		}
+	},
+	parameters: {
+		docs: {
+			description: {
+				component: 'The `Hero` component displays a prominent section with a title, often used at the top of pages.'
+			}
+		}
 	}
 };
 
 export default meta;
 
-type Story = StoryObj<typeof Hero>;
+type Story = StoryObj<HeroProps>;
 
-export const Default: Story = {};
-
-export const NoButtonsVariant: Story = {
-	args: {
-		content: {
-			...meta.args.content,
-			buttons: []
+const baseArgs: HeroProps = {
+	title: 'Hero Content',
+	description: 'Shipping broken features with full commitment',
+	backgroundImage: '/assets/images/hero/hero-minions.webp',
+	overlayOpacity: 0.1,
+	buttons: [
+		{
+			text: 'Get Started',
+			link: '/',
+			target: '_blank'
+		},
+		{
+			text: 'Docs',
+			link: '/docs',
+			variant: 'secondary',
+			target: '_blank'
 		}
+	]
+};
+
+export const Default: Story = {
+	args: baseArgs
+};
+
+export const NoButtons: Story = {
+	args: {
+		...baseArgs,
+		buttons: [] // 👈 override only the buttons
 	}
-} as StoryObj<typeof Hero>;
+};

@@ -11,12 +11,12 @@ const config: StorybookConfig = {
 	},
 	stories: ['../src/components/**/*.stories.@(ts|tsx)'],
 	addons: [
-		{
-			name: '@storybook/addon-docs',
-			options: {
-				autodocs: true
-			}
-		},
+		// {
+		// 	name: '@storybook/addon-docs',
+		// 	options: {
+		// 		autodocs: true
+		// 	}
+		// },
 		'@storybook/addon-essentials' // Already includes Docs, but you override it above
 	],
 	viteFinal: async (config) => {

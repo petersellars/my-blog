@@ -1,0 +1,28 @@
+---
+// src/components/Hero.astro
+import HeroContext from './HeroContext.tsx';
+import BackgroundImage from '../BackgroundImage.astro';
+import type { ImageMetadata } from 'astro';
+
+interface Button {
+  text: string;
+  link: string;
+  variant?: 'primary' | 'secondary' | 'ghostLight' | 'ghostDark';
+  target?: string;
+}
+
+interface Props {
+  title: string;
+  description: string;
+  buttons?: Button[];
+  backgroundImage?: string | ImageMetadata;
+  overlayOpacity?: number;
+}
+
+const { title, description, buttons, backgroundImage, overlayOpacity } = Astro.props;
+---
+
+<section class="header-offset relative">
+  <BackgroundImage image={backgroundImage} overlayOpacity={overlayOpacity} />
+  <HeroContext title={title} description={description} buttons={buttons} />
+</section>
