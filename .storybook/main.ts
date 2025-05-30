@@ -6,19 +6,8 @@ const config: StorybookConfig = {
 		name: '@storybook/preact-vite',
 		options: {}
 	},
-	docs: {
-		autodocs: true
-	},
 	stories: ['../src/components/**/*.stories.@(ts|tsx)'],
-	addons: [
-		// {
-		// 	name: '@storybook/addon-docs',
-		// 	options: {
-		// 		autodocs: true
-		// 	}
-		// },
-		'@storybook/addon-essentials' // Already includes Docs, but you override it above
-	],
+	addons: [],
 	viteFinal: async (config) => {
 		config.plugins = [...(config.plugins || []), preact()];
 		return config;
