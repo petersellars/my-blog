@@ -6,13 +6,11 @@ const storybookPlugin = require('eslint-plugin-storybook');
 const importPlugin = require('eslint-plugin-import');
 const jsxA11yPlugin = require('eslint-plugin-jsx-a11y');
 const securityPlugin = require('eslint-plugin-security');
-const reactPlugin = require('eslint-plugin-react');
-const reactHooksPlugin = require('eslint-plugin-react-hooks');
 const preactPlugin = require('eslint-plugin-preact');
 
 module.exports = [
   {
-        ignores: [".astro/"],
+    ignores: [".astro/"],
   },
   {
     files: ['**/*.ts', '**/*.tsx'],
@@ -21,36 +19,29 @@ module.exports = [
       parserOptions: {
         ecmaVersion: 2020,
         sourceType: 'module',
-        ecmaFeatures: { jsx: true },
       },
     },
     plugins: {
       '@typescript-eslint': tsPlugin,
       import: importPlugin,
       security: securityPlugin,
-      react: reactPlugin,
-      'react-hooks': reactHooksPlugin,
       preact: preactPlugin,
+      react: require('eslint-plugin-react'),
     },
     rules: {
       ...tsPlugin.configs.recommended.rules,
-      ...reactPlugin.configs.recommended.rules,
-      ...reactHooksPlugin.configs.recommended.rules,
       ...preactPlugin.configs.recommended.rules,
       ...securityPlugin.configs.recommended.rules,
       ...importPlugin.configs.errors.rules,
       ...importPlugin.configs.warnings.rules,
-      'react/prop-types': 'off',
-      'react/react-in-jsx-scope': 'off',
       'preact/jsx-no-undef': 'off',
       'preact/react-in-jsx-scope': 'off' 
     },
     settings: {
       react: {
-        pragma: 'h',
         version: 'detect',
-      },
-    },
+      }
+    }
   },
   {
     files: ['**/*.astro'],
@@ -60,7 +51,6 @@ module.exports = [
         parser: tsParser,
         ecmaVersion: 2020,
         sourceType: 'module',
-        ecmaFeatures: { jsx: true },
       },
     },
     plugins: {

@@ -5,7 +5,6 @@ import Hero, { type HeroProps } from './HeroContext.tsx';
 const meta: Meta<HeroProps> = {
 	component: Hero,
 	title: 'Components/Hero',
-	tags: ['autodocs'],
 	argTypes: {
 		title: {
 			description: 'Hero content title text'
@@ -39,7 +38,7 @@ type Story = StoryObj<HeroProps>;
 const baseArgs: HeroProps = {
 	title: 'Hero Content',
 	description: 'Shipping broken features with full commitment',
-	backgroundImage: '/assets/images/hero/hero-minions.webp',
+	backgroundImage: './assets/images/hero/hero-minions.webp',
 	overlayOpacity: 0.1,
 	buttons: [
 		{
