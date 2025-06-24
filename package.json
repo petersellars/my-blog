@@ -51,6 +51,6 @@
     "prettier-plugin-astro": "^0.14.1",
     "storybook": "^9.0.0",
     "ts-node": "^10.9.2",
-    "vite": "^6.3.5"
+    "vite": "^7.0.0"
   }
 }
