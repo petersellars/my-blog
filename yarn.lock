@@ -2163,8 +2163,8 @@ __metadata:
   linkType: hard
 
 "@preact/preset-vite@npm:^2.10.1":
-  version: 2.10.1
-  resolution: "@preact/preset-vite@npm:2.10.1"
+  version: 2.10.2
+  resolution: "@preact/preset-vite@npm:2.10.2"
   dependencies:
     "@babel/plugin-transform-react-jsx": "npm:^7.22.15"
     "@babel/plugin-transform-react-jsx-development": "npm:^7.22.5"
@@ -2172,12 +2172,12 @@ __metadata:
     "@rollup/pluginutils": "npm:^4.1.1"
     babel-plugin-transform-hook-names: "npm:^1.0.2"
     debug: "npm:^4.3.4"
-    kolorist: "npm:^1.8.0"
+    picocolors: "npm:^1.1.1"
     vite-prerender-plugin: "npm:^0.5.3"
   peerDependencies:
     "@babel/core": 7.x
-    vite: 2.x || 3.x || 4.x || 5.x || 6.x
-  checksum: 10c0/29ee1414acd920a961b9590de9800478155282fc16db05be5e427300bd29979607ba80b3f4a5f30c52d86d924de433529f63aa96c1a966685e73a43fc4a9974c
+    vite: 2.x || 3.x || 4.x || 5.x || 6.x || 7.x
+  checksum: 10c0/33bf384f463167e58a7ccb9014fdb7c9cac2a3147959af44d5cf86c86e3b660c3485486fc6c0261210ffe238e6e0e47cf0c8a677fcf40e6e49dab1facbc858ee
   languageName: node
   linkType: hard
 
