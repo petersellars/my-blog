@@ -40,7 +40,10 @@ module.exports = [
     settings: {
       react: {
         version: 'detect',
-      }
+      },
+      'import/resolver': {
+        typescript: {},
+      },
     }
   },
   {
@@ -65,7 +68,6 @@ module.exports = [
     languageOptions: {
       ecmaVersion: 2020,
       sourceType: 'module',
-      ecmaFeatures: { jsx: true },
     },
     plugins: {
       security: securityPlugin,

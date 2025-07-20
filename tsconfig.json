@@ -30,6 +30,9 @@
       ]
     },
     "jsx": "react-jsx",
-    "jsxImportSource": "preact"
-  }
+    "jsxImportSource": "preact",
+    "types": ["vitest/globals"]
+  },
+  "moduleResolution": "bundler",
+  "module": "esnext",
 }
