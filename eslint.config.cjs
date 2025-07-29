@@ -10,7 +10,7 @@ const preactPlugin = require('eslint-plugin-preact');
 
 module.exports = [
   {
-    ignores: [".astro/"],
+    ignores: [".astro/","coverage"],
   },
   {
     files: ['**/*.ts', '**/*.tsx'],
