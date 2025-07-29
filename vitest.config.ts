@@ -6,6 +6,10 @@ export default defineConfig({
 	test: {
 		globals: true,      // ✅ This makes `describe`, `it`, `expect`, etc. globally available
 		environment: 'jsdom',
-		setupFiles: './vitest.setup.ts'
+		setupFiles: './vitest.setup.ts',
+		coverage: {
+			include: ['src/components/sections/*.tsx'],
+			exclude: ['src/components/sections/*.stories.tsx']
+		}
 	}
 });

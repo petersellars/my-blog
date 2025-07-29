@@ -4,6 +4,9 @@ dist/
 # generated types
 .astro/
 
+# coverage reports
+coverage/
+
 # corepack yarn
 .yarn/cache/
 .yarn/install-state.gz

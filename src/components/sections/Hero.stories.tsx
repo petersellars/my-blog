@@ -36,8 +36,8 @@ export default meta;
 type Story = StoryObj<HeroProps>;
 
 const baseArgs: HeroProps = {
-	title: 'Hero Content',
-	description: 'Shipping broken features with full commitment',
+	title: 'Hero Title',
+	description: 'Hero description goes here.',
 	backgroundImage: './assets/images/hero/hero-minions.webp',
 	overlayOpacity: 0.1,
 	buttons: [
