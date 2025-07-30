@@ -15,7 +15,7 @@
     "preview": "astro preview",
     "storybook": "NODE_OPTIONS=--no-deprecation storybook dev -p 6006",
     "storybook:build": "NODE_OPTIONS=--no-deprecation storybook build",
-    "test": "vitest run --reporter=verbose"
+    "test": "vitest run --reporter verbose"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
@@ -61,5 +61,8 @@
     "ts-node": "^10.9.2",
     "vite": "^7.0.0",
     "vitest": "^3.2.4"
+  },
+  "resolutions": {
+    "vite": "6.0.2"
   }
 }
