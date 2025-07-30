@@ -31,7 +31,7 @@
     },
     "jsx": "react-jsx",
     "jsxImportSource": "preact",
-    "types": ["vitest/globals"]
+    "types": ["vitest", "vitest/globals"]
   },
   "moduleResolution": "bundler",
   "module": "esnext",

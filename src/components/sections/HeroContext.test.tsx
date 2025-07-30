@@ -1,4 +1,6 @@
-// Hero.test.tsx
+/**
+ * @vitest-environment jsdom
+ */
 import { render, screen } from '@testing-library/preact';
 import HeroContext from './HeroContext.tsx';
 

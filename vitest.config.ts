@@ -1,14 +1,17 @@
-import { defineConfig } from 'vitest/config';
-import preact from '@preact/preset-vite'; // or @vitejs/plugin-react if using Preact with React syntax
+/// <reference types="vitest" />
+import { getViteConfig } from 'astro/config';
 
-export default defineConfig({
-	plugins: [preact()],
+// See: https://github.com/withastro/astro/issues/12723
+// Needed to make the getViteConfig work as expected
+// resoulution of vite in package.json
+
+export default getViteConfig({
 	test: {
-		globals: true,      // ✅ This makes `describe`, `it`, `expect`, etc. globally available
-		environment: 'jsdom',
+		globals: true,      // ✅ This makes describe, it, expect, etc. globally available
+		environment: 'node',
 		setupFiles: './vitest.setup.ts',
 		coverage: {
-			include: ['src/components/sections/*.tsx'],
+			include: ['src/components/sections/*.tsx', 'src/components/sections/*.astro'],
 			exclude: ['src/components/sections/*.stories.tsx']
 		}
 	}
