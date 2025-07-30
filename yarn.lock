@@ -3329,7 +3329,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:^5.12.6":
+"astro@npm:^5.8.0":
   version: 5.12.6
   resolution: "astro@npm:5.12.6"
   dependencies:
@@ -3579,7 +3579,7 @@ __metadata:
     "@typescript-eslint/parser": "npm:^8.32.1"
     "@vitejs/plugin-react": "npm:^4.7.0"
     "@vitest/coverage-v8": "npm:3.2.4"
-    astro: "npm:^5.12.6"
+    astro: "npm:^5.8.0"
     autoprefixer: "npm:^10.4.21"
     contentful: "npm:^11.5.13"
     depcheck: "npm:^1.4.7"
