@@ -1,0 +1,42 @@
+---
+import { Image } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
+
+const { image, overlayOpacity }: {
+  image?: string | ImageMetadata;
+  overlayOpacity?: number;
+} = Astro.props;
+
+const isAstroImage = (img: unknown): img is ImageMetadata =>
+  typeof img === 'object' && img !== null && 'src' in img;
+---
+
+{image && (
+  <div class="absolute inset-0 left-0 top-0 w-full h-full overflow-hidden">
+    {isAstroImage(image) ? (
+      <Image
+        src={image}
+        alt=""
+        width={1500}
+        height={500}
+        class="w-full h-full object-cover"
+        loading="eager"
+        decoding="async"
+      />
+    ) : (
+      <img
+        src={image}
+        alt=""
+        width={1500}
+        height={500}
+        class="w-full h-full object-cover"
+        loading="eager"
+        decoding="async"
+      />
+    )}
+    <div
+      class="hero-background absolute inset-0 left-0 top-0 w-full h-full overflow-hidden"
+      style={`opacity: ${overlayOpacity ?? 0.1}`}
+    />
+  </div>
+)}

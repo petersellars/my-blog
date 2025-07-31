@@ -4,7 +4,7 @@ import Hero, { type HeroProps } from './HeroContext.tsx';
 
 const meta: Meta<HeroProps> = {
 	component: Hero,
-	title: 'Components/Hero',
+	title: 'Components/Sections/Hero',
 	argTypes: {
 		title: {
 			description: 'Hero content title text'
