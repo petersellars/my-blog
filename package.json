@@ -40,7 +40,7 @@
     "@typescript-eslint/eslint-plugin": "^8.32.1",
     "@typescript-eslint/parser": "^8.32.1",
     "@vitejs/plugin-react": "^5.0.0",
-    "@vitest/coverage-v8": "3.2.4",
+    "@vitest/coverage-v8": "4.0.4",
     "autoprefixer": "^10.4.21",
     "depcheck": "^1.4.7",
     "eslint": "^9.27.0",
@@ -60,7 +60,7 @@
     "storybook": "^9.0.0",
     "ts-node": "^10.9.2",
     "vite": "^7.0.0",
-    "vitest": "^3.2.4"
+    "vitest": "^4.0.0"
   },
   "resolutions": {
     "vite": "7.1.12"
