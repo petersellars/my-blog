@@ -4520,8 +4520,8 @@ __metadata:
   linkType: hard
 
 "contentful@npm:^11.5.13":
-  version: 11.8.7
-  resolution: "contentful@npm:11.8.7"
+  version: 11.8.8
+  resolution: "contentful@npm:11.8.8"
   dependencies:
     "@contentful/content-source-maps": "npm:^0.11.33"
     "@contentful/rich-text-types": "npm:^16.6.1"
@@ -4530,7 +4530,7 @@ __metadata:
     contentful-sdk-core: "npm:^9.0.1"
     json-stringify-safe: "npm:^5.0.1"
     type-fest: "npm:^4.0.0"
-  checksum: 10c0/e36c50de67f18a18ca2d18071db8a8bd3be2cae7bd2f690ed872451e68e9f9addf6a39b6197b00f54e39b2bb0f91ef9c541f1042d11a0f010954fc3ec541ca31
+  checksum: 10c0/c5efbb777d43560e76ca099d752232cc58cf561dbe531b5fbf1fbf03c571f966bd2a322df33b591904224d6ccec40a5c27dbf4d834a3225f83ed19bce2a0eda1
   languageName: node
   linkType: hard
 
