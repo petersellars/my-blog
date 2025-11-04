@@ -833,12 +833,12 @@ __metadata:
   linkType: hard
 
 "@contentful/rich-text-html-renderer@npm:^17.0.0":
-  version: 17.1.5
-  resolution: "@contentful/rich-text-html-renderer@npm:17.1.5"
+  version: 17.1.6
+  resolution: "@contentful/rich-text-html-renderer@npm:17.1.6"
   dependencies:
-    "@contentful/rich-text-types": "npm:^17.2.4"
+    "@contentful/rich-text-types": "npm:^17.2.5"
     escape-html: "npm:^1.0.3"
-  checksum: 10c0/f9e165238c860f3df1d19983ef6c90705f3fc5a0e1c3110ef6fdfbdbc6cc923fe3aa80ba0858580844e72e3a523dd79e78706f8e7c856d531b68c21d9092ddb3
+  checksum: 10c0/01e8cf8089a237aa54c46ec046240ab4d10642e1583c428d171a0af80fe8faf8f6827ff69da38a1a3e704f8508415669f3f1c8a92d38cec9edfbde15715e7b36
   languageName: node
   linkType: hard
 
@@ -849,13 +849,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@contentful/rich-text-types@npm:^17.2.4":
-  version: 17.2.4
-  resolution: "@contentful/rich-text-types@npm:17.2.4"
+"@contentful/rich-text-types@npm:^17.2.5":
+  version: 17.2.5
+  resolution: "@contentful/rich-text-types@npm:17.2.5"
   dependencies:
     "@lingui/core": "npm:^5.4.1"
     is-plain-obj: "npm:^3.0.0"
-  checksum: 10c0/2ac35a6082d143e286ecf13581297f8ec59c56e394d95145fd0c2202304236a359ca724dd3685f7e9e79be331d4e793943a91ad97117d9cc7d31eafbf02180bc
+  checksum: 10c0/943c4cb2c48a65ed69af5c6b6c7304e682cf90c67a3fda9afee9e6a41b5c8657592ad5ccfa3f2171e67d1a65003bc96925e7a3ce781411b072be5cbd4c867140
   languageName: node
   linkType: hard
 
