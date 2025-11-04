@@ -2,7 +2,7 @@
   "packages": [
     "git@2.51.0",
     "nodejs@24.11.0",
-    "netlify-cli@19.0.2",
+    "netlify-cli@23.9.2",
     "adrs@0.3.0"
   ],
   "env": {
