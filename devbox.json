@@ -8,10 +8,9 @@
   "env": {
     "DEVBOX_COREPACK_ENABLED": "true"
   },
-  "init_hook": {
-    "commands": [
-      "corepack enable",
-      "corepack prepare yarn@4.9.1--activate"
+  "shell" : {
+    "init_hook": [
+        "corepack prepare yarn@4.11.0 --activate"
     ]
   }
 }
