@@ -6,8 +6,8 @@
   "private": true,
   "scripts": {
     "astro": "astro",
-    "build": "astro build",
-    "build:all": "yarn build && yarn storybook:build && mv storybook-static ./dist/storybook",
+    "build:site": "astro build",
+    "build:ci": "yarn install --immutable && astro build",
     "check": "astro check",
     "coverage": "vitest run --coverage --reporter=verbose",
     "dev": "astro dev",
