@@ -4864,8 +4864,8 @@ __metadata:
   linkType: hard
 
 "contentful@npm:^11.5.13":
-  version: 11.10.0
-  resolution: "contentful@npm:11.10.0"
+  version: 11.10.1
+  resolution: "contentful@npm:11.10.1"
   dependencies:
     "@contentful/content-source-maps": "npm:^0.11.33"
     "@contentful/rich-text-types": "npm:^16.6.1"
@@ -4873,8 +4873,9 @@ __metadata:
     contentful-resolve-response: "npm:^1.9.4"
     contentful-sdk-core: "npm:^9.0.1"
     json-stringify-safe: "npm:^5.0.1"
+    tslib: "npm:^2.8.1"
     type-fest: "npm:^4.0.0"
-  checksum: 10c0/11e394ef9073a735f1038fb352919addf6192fc2a48cd2ad2202654f84f808b21ddcc41bf691a14ca948b2c53c1b234eeeb044714836b1e5cd53f5d0771323e2
+  checksum: 10c0/2225a1b7565219cb4cba6bb17c4d2090788b3c990b335051db97686813a9577347055fc86d5be82cdb9fd19b9279cbc1d2ae4367e132c50863a54e289a471855
   languageName: node
   linkType: hard
 
@@ -11467,7 +11468,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:^2.0.1, tslib@npm:^2.4.0, tslib@npm:^2.8.0":
+"tslib@npm:^2.0.1, tslib@npm:^2.4.0, tslib@npm:^2.8.0, tslib@npm:^2.8.1":
   version: 2.8.1
   resolution: "tslib@npm:2.8.1"
   checksum: 10c0/9c4759110a19c53f992d9aae23aac5ced636e99887b51b9e61def52611732872ff7668757d4e4c61f19691e36f4da981cd9485e869b4a7408d689f6bf1f14e62
