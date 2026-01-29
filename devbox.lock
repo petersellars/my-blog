@@ -1,51 +1,51 @@
 {
   "lockfile_version": "1",
   "packages": {
-    "adrs@0.3.0": {
-      "last_modified": "2025-10-22T20:59:19Z",
-      "resolved": "github:NixOS/nixpkgs/01b6809f7f9d1183a2b3e081f0a1e6f8f415cb09#adrs",
+    "adrs@0.5.0": {
+      "last_modified": "2026-01-23T17:20:52Z",
+      "resolved": "github:NixOS/nixpkgs/a1bab9e494f5f4939442a57a58d0449a109593fe#adrs",
       "source": "devbox-search",
-      "version": "0.3.0",
+      "version": "0.5.0",
       "systems": {
         "aarch64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/b6p5vggf0ay3dywc1fqcr9rydqhb9v72-adrs-0.3.0",
+              "path": "/nix/store/ar36jmk0byixlvx9gizm2aijcg77wai4-adrs-0.5.0",
               "default": true
             }
           ],
-          "store_path": "/nix/store/b6p5vggf0ay3dywc1fqcr9rydqhb9v72-adrs-0.3.0"
+          "store_path": "/nix/store/ar36jmk0byixlvx9gizm2aijcg77wai4-adrs-0.5.0"
         },
         "aarch64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/5lm2xrk79k4wrbzfqy2mrklnrrn5fwkz-adrs-0.3.0",
+              "path": "/nix/store/28gw3j1y9qy715mr9yjzm0c3jqrlczcl-adrs-0.5.0",
               "default": true
             }
           ],
-          "store_path": "/nix/store/5lm2xrk79k4wrbzfqy2mrklnrrn5fwkz-adrs-0.3.0"
+          "store_path": "/nix/store/28gw3j1y9qy715mr9yjzm0c3jqrlczcl-adrs-0.5.0"
         },
         "x86_64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/nkalr0q825mk5laz1knxfp54h3r7cl1a-adrs-0.3.0",
+              "path": "/nix/store/dbm4il6mkbm2nsi9k2c3094r6vs8xvd0-adrs-0.5.0",
               "default": true
             }
           ],
-          "store_path": "/nix/store/nkalr0q825mk5laz1knxfp54h3r7cl1a-adrs-0.3.0"
+          "store_path": "/nix/store/dbm4il6mkbm2nsi9k2c3094r6vs8xvd0-adrs-0.5.0"
         },
         "x86_64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/hhzqq7f59azmigvir3yk9ay7srqqvff8-adrs-0.3.0",
+              "path": "/nix/store/d2qgch6kazr32ljvka8v7a0n8m6izik5-adrs-0.5.0",
               "default": true
             }
           ],
-          "store_path": "/nix/store/hhzqq7f59azmigvir3yk9ay7srqqvff8-adrs-0.3.0"
+          "store_path": "/nix/store/d2qgch6kazr32ljvka8v7a0n8m6izik5-adrs-0.5.0"
         }
       }
     },
