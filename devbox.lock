@@ -125,51 +125,51 @@
       "last_modified": "2025-11-07T02:32:13Z",
       "resolved": "github:NixOS/nixpkgs/e1ebeec86b771e9d387dd02d82ffdc77ac753abc?lastModified=1762482733&narHash=sha256-g%2Fda4FzvckvbiZT075Sb1%2FYDNDr%2BtGQgh4N8i5ceYMg%3D"
     },
-    "netlify-cli@23.9.2": {
-      "last_modified": "2025-11-02T15:04:35Z",
-      "resolved": "github:NixOS/nixpkgs/a3e67ddfeb2e04ef6ae3fddc8aae678696b08714#netlify-cli",
+    "netlify-cli@23.15.0": {
+      "last_modified": "2026-02-06T12:24:04Z",
+      "resolved": "github:NixOS/nixpkgs/ae67888ff7ef9dff69b3cf0cc0fbfbcd3a722abe#netlify-cli",
       "source": "devbox-search",
-      "version": "23.9.2",
+      "version": "23.15.0",
       "systems": {
         "aarch64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/1shb91w1zh7jdssxbxbrrgvlq9n4jgyh-netlify-cli-23.9.2",
+              "path": "/nix/store/qy7gchjrbmzaijib2n2fa6alxksz83w1-netlify-cli-23.15.0",
               "default": true
             }
           ],
-          "store_path": "/nix/store/1shb91w1zh7jdssxbxbrrgvlq9n4jgyh-netlify-cli-23.9.2"
+          "store_path": "/nix/store/qy7gchjrbmzaijib2n2fa6alxksz83w1-netlify-cli-23.15.0"
         },
         "aarch64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/llysnsiy9hfx03yfmzd7mkvx5m86ibih-netlify-cli-23.9.2",
+              "path": "/nix/store/a4n0fqar1i58sl2mf7b88mn5fpnf6ls7-netlify-cli-23.15.0",
               "default": true
             }
           ],
-          "store_path": "/nix/store/llysnsiy9hfx03yfmzd7mkvx5m86ibih-netlify-cli-23.9.2"
+          "store_path": "/nix/store/a4n0fqar1i58sl2mf7b88mn5fpnf6ls7-netlify-cli-23.15.0"
         },
         "x86_64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/b5ipjh9rvc01q497rhd48x22kkrhcgy8-netlify-cli-23.9.2",
+              "path": "/nix/store/qcvnw9770sw42cdmc8ks78p90l74q8jp-netlify-cli-23.15.0",
               "default": true
             }
           ],
-          "store_path": "/nix/store/b5ipjh9rvc01q497rhd48x22kkrhcgy8-netlify-cli-23.9.2"
+          "store_path": "/nix/store/qcvnw9770sw42cdmc8ks78p90l74q8jp-netlify-cli-23.15.0"
         },
         "x86_64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/5hppiym82l2y9lxyjch9mj50v1527flh-netlify-cli-23.9.2",
+              "path": "/nix/store/ms19qyr6bgk12d9ywsrp7naynghad58n-netlify-cli-23.15.0",
               "default": true
             }
           ],
-          "store_path": "/nix/store/5hppiym82l2y9lxyjch9mj50v1527flh-netlify-cli-23.9.2"
+          "store_path": "/nix/store/ms19qyr6bgk12d9ywsrp7naynghad58n-netlify-cli-23.15.0"
         }
       }
     },
