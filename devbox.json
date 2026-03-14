@@ -1,17 +1,16 @@
 {
   "packages": [
-    "git@2.50.1",
-    "nodejs@24.5.0",
-    "netlify-cli@19.0.2",
-    "adrs@0.3.0"
+    "git@2.53.0",
+    "nodejs@25.8.0",
+    "netlify-cli@23.15.0",
+    "adrs@0.7.2"
   ],
   "env": {
     "DEVBOX_COREPACK_ENABLED": "true"
   },
-  "init_hook": {
-    "commands": [
-      "corepack enable",
-      "corepack prepare yarn@4.9.1--activate"
+  "shell" : {
+    "init_hook": [
+        "corepack prepare yarn@4.11.0 --activate"
     ]
   }
 }
