@@ -1,7 +1,7 @@
 {
   "packages": [
     "git@2.53.0",
-    "nodejs@25.8.2",
+    "nodejs@25.9.0",
     "netlify-cli@23.15.0",
     "adrs@0.7.3"
   ],
