@@ -28,7 +28,7 @@
     "tailwindcss": "^4.1.7",
     "typescript": "6.0.2"
   },
-  "packageManager": "yarn@4.13.0",
+  "packageManager": "yarn@4.14.1",
   "devDependencies": {
     "@preact/preset-vite": "^2.10.1",
     "@storybook/builder-vite": "^10.0.0",
