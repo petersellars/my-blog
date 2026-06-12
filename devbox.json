@@ -3,7 +3,7 @@
     "git@2.54.0",
     "nodejs@25.9.0",
     "netlify-cli@23.15.0",
-    "adrs@0.7.3"
+    "adrs@0.7.4"
   ],
   "env": {
     "DEVBOX_COREPACK_ENABLED": "true"
