@@ -6209,8 +6209,8 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-astro@npm:^2.0.0":
-  version: 2.1.0
-  resolution: "eslint-plugin-astro@npm:2.1.0"
+  version: 2.1.1
+  resolution: "eslint-plugin-astro@npm:2.1.1"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.5.1"
     "@jridgewell/sourcemap-codec": "npm:^1.5.0"
@@ -6230,7 +6230,7 @@ __metadata:
       optional: true
     eslint-plugin-jsx-a11y:
       optional: true
-  checksum: 10c0/a2b95509bb34c22c36775d52d45a64497fd9d2c50b51175632a24182ff25e47addeb39a9785fdd4f55134a0759b08eb25f148fca84ddb72e9c087587292842ab
+  checksum: 10c0/423921a8273ec1df9f2c84242a48d0b010377de743a2eab1f91e08695968f72866cb2fd9e412da4117531f4f8d2369910658a27646baa8c938e0c067219a18b1
   languageName: node
   linkType: hard
 
