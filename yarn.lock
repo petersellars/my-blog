@@ -870,11 +870,11 @@ __metadata:
   linkType: hard
 
 "@contentful/rich-text-html-renderer@npm:^17.0.0":
-  version: 17.2.2
-  resolution: "@contentful/rich-text-html-renderer@npm:17.2.2"
+  version: 17.2.3
+  resolution: "@contentful/rich-text-html-renderer@npm:17.2.3"
   dependencies:
     "@contentful/rich-text-types": "npm:^17.2.7"
-  checksum: 10c0/c97b3a9e78bd0c61e7c6df788e6c0c781477cc588764642c4b2cc7e641332cc45ea0794fb3861433c2733f0d33cf28fb992257309b41f15d306b77d51f2e522c
+  checksum: 10c0/8ee18c6b5d6cc05fd011b4bf2279045ac1d345cd2e1eec93c1c0286c79561abc6fa51a9bf954229fd5e412ffc0a9ed8ae07259d7f29da220afed8343669e1900
   languageName: node
   linkType: hard
 
