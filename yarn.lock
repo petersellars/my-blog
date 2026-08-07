@@ -844,13 +844,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@contentful/content-source-maps@npm:^0.11.33":
-  version: 0.11.37
-  resolution: "@contentful/content-source-maps@npm:0.11.37"
+"@contentful/content-source-maps@npm:^0.12.0":
+  version: 0.12.3
+  resolution: "@contentful/content-source-maps@npm:0.12.3"
   dependencies:
-    "@vercel/stega": "npm:^0.1.2"
+    "@vercel/stega": "npm:^1.1.0"
     json-pointer: "npm:^0.6.2"
-  checksum: 10c0/9ab5c441bcc485dd0d61597725258dff9174cb7f477919941aeb82ed23e36c9b90b94306635435cd935926033d4b7260cbfd4518428fb498a788c6ad7088c777
+  checksum: 10c0/fa67fa3c1f62f1a21265764defec996351ce808abc4e66c09b52d9f763d06183d0d5ecc48999e43431829500a177ad135ae0881c39303da740cf8114e64e8132
   languageName: node
   linkType: hard
 
@@ -3665,10 +3665,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vercel/stega@npm:^0.1.2":
-  version: 0.1.2
-  resolution: "@vercel/stega@npm:0.1.2"
-  checksum: 10c0/66eb80f286d46806004a2eacd215af80ad3cd443e7a96a6070d390dbb3f4d1f6e063013ec0d196c7fe852721d5dbe62e23b44c32975e36b18cda30e5e0728e04
+"@vercel/stega@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@vercel/stega@npm:1.1.0"
+  checksum: 10c0/64df5aff0e60c609be4a56dd8411085ad15d85bbad98627bfce2902ae3fbade5d5d7ecdcc1308b45896cf6f62303780f90387a5f70b7e08963726174efd0c149
   languageName: node
   linkType: hard
 
@@ -5046,12 +5046,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"contentful-resolve-response@npm:^1.9.4":
-  version: 1.9.4
-  resolution: "contentful-resolve-response@npm:1.9.4"
+"contentful-resolve-response@npm:^2.0.0":
+  version: 2.0.1
+  resolution: "contentful-resolve-response@npm:2.0.1"
   dependencies:
     fast-copy: "npm:^3.0.2"
-  checksum: 10c0/2b389d9e396a6d5cb62c8e4e87d334e2e0e3467e3f1c37f73dbfc19103daac4972da34b241a2ad33df7129ccc854b0ad2b3b821f55ec11e661452088366050b4
+  checksum: 10c0/2703dfebb62435faac5c345d2779f6df057407a08b65d8bc544f8e542580656755524ee7924b2f82c2412ac74abe684f5e8cf4a9dd8b36ca07286e3cecdc0297
   languageName: node
   linkType: hard
 
@@ -5072,18 +5072,18 @@ __metadata:
   linkType: hard
 
 "contentful@npm:^11.5.13":
-  version: 11.12.7
-  resolution: "contentful@npm:11.12.7"
+  version: 11.12.9
+  resolution: "contentful@npm:11.12.9"
   dependencies:
-    "@contentful/content-source-maps": "npm:^0.11.33"
+    "@contentful/content-source-maps": "npm:^0.12.0"
     "@contentful/rich-text-types": "npm:^17.2.7"
     axios: "npm:^1.15.0"
-    contentful-resolve-response: "npm:^1.9.4"
+    contentful-resolve-response: "npm:^2.0.0"
     contentful-sdk-core: "npm:^9.4.4"
     json-stringify-safe: "npm:^5.0.1"
     tslib: "npm:^2.8.1"
     type-fest: "npm:^4.0.0"
-  checksum: 10c0/494ab62919c5f8e1bc055eab35b85398aec9039712aa6dba3765d3f12695d30d6a5e509c12928798c77b4c7ddfeb796c93f60fd078009651eea71f6bda2562fc
+  checksum: 10c0/6558c0d0f9f52287c6a49b17778fc23ec2de89fe5465151e478be6ad154acb1d738ec42de0a3f8c0159f374695635aaf55555b02fc1e28e9ca6d109a7066213c
   languageName: node
   linkType: hard
 
