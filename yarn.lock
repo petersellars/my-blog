@@ -6343,8 +6343,8 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-astro@npm:^3.0.0":
-  version: 3.1.0
-  resolution: "eslint-plugin-astro@npm:3.1.0"
+  version: 3.2.0
+  resolution: "eslint-plugin-astro@npm:3.2.0"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.5.1"
     "@jridgewell/sourcemap-codec": "npm:^1.5.0"
@@ -6358,15 +6358,18 @@ __metadata:
     "@typescript-eslint/parser": ">=8.61.0"
     eslint: ">=10.0.0"
     eslint-plugin-jsx-a11y: ">=6.10.2"
+    eslint-plugin-jsx-a11y-x: ">=0.2.0"
     typescript-eslint: ">=8.61.0"
   peerDependenciesMeta:
     "@typescript-eslint/parser":
       optional: true
     eslint-plugin-jsx-a11y:
       optional: true
+    eslint-plugin-jsx-a11y-x:
+      optional: true
     typescript-eslint:
       optional: true
-  checksum: 10c0/be090c8a5fdb7bfd8b40108a552a4e5e1e33de11d651688d864203d75d7e3b735eb92b9b1911f63aaee44e65f994ec4d754d18ea9cc4a38a7a142deb1ab72f96
+  checksum: 10c0/6008c5630896d191bd143702927b0f04acaf4557e9a7162fe7aec8d640f9e9d5e1d011080938c633d105d2bf427763537232b0436068068c263adf2d131a3b4e
   languageName: node
   linkType: hard
 
