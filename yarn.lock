@@ -2459,6 +2459,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@pkgr/core@npm:^0.3.6":
+  version: 0.3.6
+  resolution: "@pkgr/core@npm:0.3.6"
+  checksum: 10c0/153f0f4563f505faeba13c733efa0e05e467ce1c6b941055a5fd3b4560da60fbf1dff4b11da0075f034ddda11f2842b90395f60895dde5825875b616edccc11c
+  languageName: node
+  linkType: hard
+
 "@preact/preset-vite@npm:^2.10.1, @preact/preset-vite@npm:^2.10.5":
   version: 2.10.6
   resolution: "@preact/preset-vite@npm:2.10.6"
@@ -6475,8 +6482,8 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-astro@npm:^3.0.0":
-  version: 3.2.0
-  resolution: "eslint-plugin-astro@npm:3.2.0"
+  version: 3.2.1
+  resolution: "eslint-plugin-astro@npm:3.2.1"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.5.1"
     "@jridgewell/sourcemap-codec": "npm:^1.5.0"
@@ -6486,6 +6493,7 @@ __metadata:
     globals: "npm:^17.0.0"
     postcss: "npm:^8.5.3"
     postcss-selector-parser: "npm:^7.1.0"
+    synckit: "npm:^0.11.13"
   peerDependencies:
     "@typescript-eslint/parser": ">=8.61.0"
     eslint: ">=10.0.0"
@@ -6501,7 +6509,7 @@ __metadata:
       optional: true
     typescript-eslint:
       optional: true
-  checksum: 10c0/6008c5630896d191bd143702927b0f04acaf4557e9a7162fe7aec8d640f9e9d5e1d011080938c633d105d2bf427763537232b0436068068c263adf2d131a3b4e
+  checksum: 10c0/508a2c5189836af2543b64daca9a372ba0b7d9a84dde5c74b4bde2976c5672480fcb24993fa07002e095e01412f6aea92143885694dfa208713677e1b12dfae0
   languageName: node
   linkType: hard
 
@@ -11780,6 +11788,15 @@ __metadata:
   version: 3.2.4
   resolution: "symbol-tree@npm:3.2.4"
   checksum: 10c0/dfbe201ae09ac6053d163578778c53aa860a784147ecf95705de0cd23f42c851e1be7889241495e95c37cabb058edb1052f141387bef68f705afc8f9dd358509
+  languageName: node
+  linkType: hard
+
+"synckit@npm:^0.11.13":
+  version: 0.11.13
+  resolution: "synckit@npm:0.11.13"
+  dependencies:
+    "@pkgr/core": "npm:^0.3.6"
+  checksum: 10c0/5a6c19f4f79045aaa7994106401bff6dbe7cca23a6d0a0723ff14eb8b1bebeb4a71729118f6914905598e304ea2fa13509885e11ba07d92e7cb68a06740cb328
   languageName: node
   linkType: hard
 
