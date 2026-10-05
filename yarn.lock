@@ -6646,11 +6646,11 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-security@npm:^4.0.0":
-  version: 4.0.1
-  resolution: "eslint-plugin-security@npm:4.0.1"
+  version: 4.2.0
+  resolution: "eslint-plugin-security@npm:4.2.0"
   dependencies:
     safe-regex: "npm:^2.1.1"
-  checksum: 10c0/5fdb3be0a1e3707198169f64635e1d904e0e31f53f008bdf99738210bdd9df62ba098015e165401d0a9a01eb958fe0fc69af3980008664af3b88a9b71cde18ed
+  checksum: 10c0/7c47bb486ece3d784936d96148074d8e1f3878b51a4050694d2457a8555847be33cec223ba6d8ed5de5697d276c959ddeb7ac2ba7087742c02d4b15ddf091810
   languageName: node
   linkType: hard
 
