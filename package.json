@@ -60,6 +60,6 @@
     "vitest": "^5.0.0"
   },
   "resolutions": {
-    "vite": "8.3.4"
+    "vite": "8.3.5"
   }
 }
