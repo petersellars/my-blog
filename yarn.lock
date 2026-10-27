@@ -2984,48 +2984,48 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/builder-vite@npm:10.6.3, @storybook/builder-vite@npm:^10.0.0":
-  version: 10.6.3
-  resolution: "@storybook/builder-vite@npm:10.6.3"
+"@storybook/builder-vite@npm:10.6.4, @storybook/builder-vite@npm:^10.0.0":
+  version: 10.6.4
+  resolution: "@storybook/builder-vite@npm:10.6.4"
   dependencies:
     ts-dedent: "npm:^2.0.0"
   peerDependencies:
-    storybook: ^10.6.3
+    storybook: ^10.6.4
     vite: ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
-  checksum: 10c0/52d82d6020f9e0a65a952ae68d87b5b92b01806a1dc59374f6ae34d8bfa33a7b34b31baaf92d6657a0d422ac555877b48f829465e6741a17a13849aa277fa34f
+  checksum: 10c0/fd61892fe26e8d19421f40b473b2d77ff7deddfcd415457c1ca0a1c8eb3d35b683c68cb03c2a3ccf456278c22983dfcf64896cc6de2498e8038886b8f1fd9a38
   languageName: node
   linkType: hard
 
 "@storybook/cli@npm:^10.0.0":
-  version: 10.6.3
-  resolution: "@storybook/cli@npm:10.6.3"
+  version: 10.6.4
+  resolution: "@storybook/cli@npm:10.6.4"
   dependencies:
-    "@storybook/codemod": "npm:10.6.3"
+    "@storybook/codemod": "npm:10.6.4"
     "@types/semver": "npm:^7.7.1"
     commander: "npm:^14.0.2"
-    create-storybook: "npm:10.6.3"
+    create-storybook: "npm:10.6.4"
     jscodeshift: "npm:^0.15.1"
-    storybook: "npm:10.6.3"
+    storybook: "npm:10.6.4"
     ts-dedent: "npm:^2.0.0"
   bin:
     cli: ./dist/bin/index.js
-  checksum: 10c0/9eaefbe796a2d47bc5dd72bf437f9c934657a0489caf990f483bc1cb74e24da660684a1148c21ced7ea13bd54d3397f2eab044a031dc2a62452746f4082d7c03
+  checksum: 10c0/6374616551dc485da4bcd11abf80bd11719ec8f42a9d35de7cc5b426481f5fc363f1fe38f4f708dbd2d5c2eb09327ffedd301faf4662d2f07ce6c9738bf3abe5
   languageName: node
   linkType: hard
 
-"@storybook/codemod@npm:10.6.3":
-  version: 10.6.3
-  resolution: "@storybook/codemod@npm:10.6.3"
+"@storybook/codemod@npm:10.6.4":
+  version: 10.6.4
+  resolution: "@storybook/codemod@npm:10.6.4"
   dependencies:
     "@types/cross-spawn": "npm:^6.0.6"
     cross-spawn: "npm:^7.0.6"
     es-toolkit: "npm:^1.43.0"
     jscodeshift: "npm:^0.15.1"
     prettier: "npm:^3.7.1"
-    storybook: "npm:10.6.3"
+    storybook: "npm:10.6.4"
     tiny-invariant: "npm:^1.3.1"
     tinyglobby: "npm:^0.2.13"
-  checksum: 10c0/357d63877ab5e780bff431b3b275b8d20aafc88901ab222ea111faf592142c933337f68a3e615b6eec81e028a6543068b79926206765104cf9ae71ac6026629b
+  checksum: 10c0/dfcc306351202e70eeda91995502db9d45fd123f31162f5ec24a6126385c8ec9f7302044353b847ae6650c6b4f110a74980ecadf853164bca490d9ae2a35189e
   languageName: node
   linkType: hard
 
@@ -3047,29 +3047,29 @@ __metadata:
   linkType: hard
 
 "@storybook/preact-vite@npm:^10.0.0":
-  version: 10.6.3
-  resolution: "@storybook/preact-vite@npm:10.6.3"
+  version: 10.6.4
+  resolution: "@storybook/preact-vite@npm:10.6.4"
   dependencies:
-    "@storybook/builder-vite": "npm:10.6.3"
-    "@storybook/preact": "npm:10.6.3"
+    "@storybook/builder-vite": "npm:10.6.4"
+    "@storybook/preact": "npm:10.6.4"
   peerDependencies:
     preact: ">=10"
-    storybook: ^10.6.3
+    storybook: ^10.6.4
     vite: ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
-  checksum: 10c0/5713a57bb1e43533806f008ba58de0d8be83e5a02f19a29ac5482b1e118a4343331cd0b1fd6b01c41b6123ba5e1bc0d24d01cd8c2fc6f67eb140bad12e8018c4
+  checksum: 10c0/7e38f5e7cf8ba398fbbbc51727d95921229246bab703e3fa9eb02d6f6a48829ab850b2423d90fc6360d6ffcad278db3a2218661d948c2f510a5e3ec39cedde8f
   languageName: node
   linkType: hard
 
-"@storybook/preact@npm:10.6.3":
-  version: 10.6.3
-  resolution: "@storybook/preact@npm:10.6.3"
+"@storybook/preact@npm:10.6.4":
+  version: 10.6.4
+  resolution: "@storybook/preact@npm:10.6.4"
   dependencies:
     "@storybook/global": "npm:^5.0.0"
     ts-dedent: "npm:^2.0.0"
   peerDependencies:
     preact: ^8.0.0||^10.0.0
-    storybook: ^10.6.3
-  checksum: 10c0/bba48f7fc1e37f8961d50c14036c909f0358ae059029c508949b4684d2fec085e7a66560090303d8620a6788cccdcec6e82b33299e70eec7f3fd03e94f4383cc
+    storybook: ^10.6.4
+  checksum: 10c0/2a8f0f4f1554eb35bf06203ce6dd26053abb663be89ee67e4b1a6c6557f67719b3354947ccc406f43a1b10e243115d497286b06ca722ae8bca863d0be6455a86
   languageName: node
   linkType: hard
 
@@ -5452,15 +5452,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"create-storybook@npm:10.6.3":
-  version: 10.6.3
-  resolution: "create-storybook@npm:10.6.3"
+"create-storybook@npm:10.6.4":
+  version: 10.6.4
+  resolution: "create-storybook@npm:10.6.4"
   dependencies:
     semver: "npm:^7.7.3"
-    storybook: "npm:10.6.3"
+    storybook: "npm:10.6.4"
   bin:
     create-storybook: ./dist/bin/index.js
-  checksum: 10c0/b91cd0820069616c3965727d245b5dda7e17b9d7173ae99f9d07d0574a522d821c4ef04e48b532b11cfb2b959341cf4f95f34b7cdb73f959f85d1aeef9aeb210
+  checksum: 10c0/be67c905459ef5d49c4f2babbae34f1948474f79f00966f16e08f060f4c60516d8d753fc4ec747ea714c5d6090b2d0cc0484959fb0c7d67a16fe49b8ccbf6112
   languageName: node
   linkType: hard
 
@@ -6560,14 +6560,14 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-storybook@npm:^10.0.0":
-  version: 10.6.3
-  resolution: "eslint-plugin-storybook@npm:10.6.3"
+  version: 10.6.4
+  resolution: "eslint-plugin-storybook@npm:10.6.4"
   dependencies:
     "@typescript-eslint/types": "npm:^8.60.0"
     "@typescript-eslint/utils": "npm:^8.60.0"
   peerDependencies:
     eslint: ">=8"
-  checksum: 10c0/75a697b963b5906dbb0c0fb7bbb103180680aebe2e817f7e488a96afef14393d7d2d2fa1ac7a4d9b86c5fea9dc94a845c854aa1d4b0c520ab6719fb783381857
+  checksum: 10c0/98296ff24c85eaeb283e9af15a390db447d68360fcae0ef884d0c8a90ef27996aa648bcce979c266a703c0c76c210eab4d318c68ac1ea2efb4e3880468707bf1
   languageName: node
   linkType: hard
 
@@ -10814,9 +10814,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"storybook@npm:10.6.3, storybook@npm:^10.0.0":
-  version: 10.6.3
-  resolution: "storybook@npm:10.6.3"
+"storybook@npm:10.6.4, storybook@npm:^10.0.0":
+  version: 10.6.4
+  resolution: "storybook@npm:10.6.4"
   dependencies:
     "@storybook/global": "npm:^5.0.0"
     "@storybook/icons": "npm:^2.0.2"
@@ -10848,7 +10848,7 @@ __metadata:
       optional: true
   bin:
     storybook: ./dist/bin/dispatcher.js
-  checksum: 10c0/d3b6745cb80e0b551e652645896084a8a24c376a2768df687bfed684387ad6b89f4da0fa9cc8e19074c6dfcedb6186043e410e9110216fc8dc714001359d6452
+  checksum: 10c0/4e3336c3674b7a2043e079203d420f873376bfc07c2e490e8c383451edc1c8387b4e098811cd3190db0df1c9bcc9db4fc2f528534080255121c97c53da7cbd4b
   languageName: node
   linkType: hard
 
