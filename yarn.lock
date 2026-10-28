@@ -9707,14 +9707,14 @@ __metadata:
   linkType: hard
 
 "preact@npm:^11.0.0":
-  version: 11.0.2
-  resolution: "preact@npm:11.0.2"
+  version: 11.1.0
+  resolution: "preact@npm:11.1.0"
   peerDependencies:
     preact-render-to-string: ">=6.7.0"
   peerDependenciesMeta:
     preact-render-to-string:
       optional: true
-  checksum: 10c0/a9d1334994a495b483f2f13caa56836f0af095ea41061db441404026133dba875c7951285b40dc67a8249139cb9cc05083485094e1e80a628650e4257fcf9890
+  checksum: 10c0/ca267ae9e7c477c9673dba115ad9a023a5ea39c38cb462dad804495dbf5d01fe2309658c41e2296384e9871ac8387414b3ac440950d46fdedf43579a0b1ffd94
   languageName: node
   linkType: hard
 
