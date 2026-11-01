@@ -9595,14 +9595,14 @@ __metadata:
   linkType: hard
 
 "preact@npm:^11.0.0":
-  version: 11.1.0
-  resolution: "preact@npm:11.1.0"
+  version: 11.1.1
+  resolution: "preact@npm:11.1.1"
   peerDependencies:
     preact-render-to-string: ">=6.7.0"
   peerDependenciesMeta:
     preact-render-to-string:
       optional: true
-  checksum: 10c0/ca267ae9e7c477c9673dba115ad9a023a5ea39c38cb462dad804495dbf5d01fe2309658c41e2296384e9871ac8387414b3ac440950d46fdedf43579a0b1ffd94
+  checksum: 10c0/405e3b51cd29e916934583b557de1880f3102f70c90c23cb68ceba0ecf6710d69bea525faabb82f21e3a28a8883c31f0ccf8ebaf5965ca05cb047b0e275c9782
   languageName: node
   linkType: hard
 
