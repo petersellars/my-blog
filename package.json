@@ -34,7 +34,7 @@
     "@storybook/builder-vite": "^10.0.0",
     "@storybook/cli": "^10.0.0",
     "@storybook/preact-vite": "^10.0.0",
-    "@testing-library/jest-dom": "^7.0.0",
+    "@testing-library/jest-dom": "^8.0.0",
     "@testing-library/preact": "^3.2.4",
     "@typescript-eslint/eslint-plugin": "^8.32.1",
     "@typescript-eslint/parser": "^8.32.1",
