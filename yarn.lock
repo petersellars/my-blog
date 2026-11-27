@@ -1218,6 +1218,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@dual-bundle/import-meta-resolve@npm:^4.2.1":
+  version: 4.2.1
+  resolution: "@dual-bundle/import-meta-resolve@npm:4.2.1"
+  checksum: 10c0/8f1e572c14c4d20ea35734635085213abd13bd440c251309cf8ae5ed1082f6759cefa1c2c52a631f76859c57e26062f78a8cee4acc239c0edc87cd316a5d3b5b
+  languageName: node
+  linkType: hard
+
 "@emmetio/abbreviation@npm:^2.3.3":
   version: 2.3.3
   resolution: "@emmetio/abbreviation@npm:2.3.3"
@@ -6424,8 +6431,8 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-astro@npm:^3.0.0":
-  version: 3.2.1
-  resolution: "eslint-plugin-astro@npm:3.2.1"
+  version: 3.2.2
+  resolution: "eslint-plugin-astro@npm:3.2.2"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.5.1"
     "@jridgewell/sourcemap-codec": "npm:^1.5.0"
@@ -6435,7 +6442,7 @@ __metadata:
     globals: "npm:^17.0.0"
     postcss: "npm:^8.5.3"
     postcss-selector-parser: "npm:^7.1.0"
-    synckit: "npm:^0.11.13"
+    synckit: "npm:^0.12.0"
   peerDependencies:
     "@typescript-eslint/parser": ">=8.61.0"
     eslint: ">=10.0.0"
@@ -6451,7 +6458,7 @@ __metadata:
       optional: true
     typescript-eslint:
       optional: true
-  checksum: 10c0/508a2c5189836af2543b64daca9a372ba0b7d9a84dde5c74b4bde2976c5672480fcb24993fa07002e095e01412f6aea92143885694dfa208713677e1b12dfae0
+  checksum: 10c0/10d4a3b4dc1f139d35e668cf5af7cb634f6fc4e33e70b450b3e0b0d190cf795f5b86c680dfb3595d14d692f8ec6c738874df0a8a30b4f0d219eef1cdbe0ad9e4
   languageName: node
   linkType: hard
 
@@ -11008,12 +11015,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"synckit@npm:^0.11.13":
-  version: 0.11.13
-  resolution: "synckit@npm:0.11.13"
+"synckit@npm:^0.12.0":
+  version: 0.12.3
+  resolution: "synckit@npm:0.12.3"
   dependencies:
+    "@dual-bundle/import-meta-resolve": "npm:^4.2.1"
     "@pkgr/core": "npm:^0.3.6"
-  checksum: 10c0/5a6c19f4f79045aaa7994106401bff6dbe7cca23a6d0a0723ff14eb8b1bebeb4a71729118f6914905598e304ea2fa13509885e11ba07d92e7cb68a06740cb328
+  checksum: 10c0/e7c3c5bd8272c55c0e108c296dbd0d326e9f22614227079b46ff7bd51c0970d810b222a3a14f5b0f1797d8af2c82058b9a927ac63a06219ead8535d271b382e1
   languageName: node
   linkType: hard
 
